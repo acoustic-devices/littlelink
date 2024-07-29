@@ -29,6 +29,15 @@
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+
+.alice-regular {
+  font-family: "Alice", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
 .button,
 button {
   display: inline-block;
@@ -46,8 +55,8 @@ button {
   outline: none;
   border-radius: 8px;
   cursor: pointer;
-  
-}     
+
+}
 button:hover,
 .button:focus {
   color: #212121;
@@ -79,8 +88,9 @@ button:hover,
 
 /* Default (this is great for your own brand color!) */
 .button.button-default {
-  color: #ffffff;
-  background-color: #2457F5;
+  color: white;
+  background-color: black;
+  font-family : "Alice";
 }
 .button.button-default:hover,
 .button.button-default:focus {
